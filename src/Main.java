@@ -7,6 +7,6 @@ public class Main {
         tank.printPosition();
         tank.goBackward(100);
         tank.printPosition();
-
+        tank.printPosition();
     }
 }
