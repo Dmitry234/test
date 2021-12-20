@@ -3,7 +3,7 @@ import java.util.regex.Pattern;
 
 public class Primer {
     public static void main(String[] args) {
-        String text = "a brush, roller, mop can be used to apply the primer ";
+        String text = "a brush, roller, spray gun, mop can be used to apply the primer ";
         Pattern pattern = Pattern.compile("p....r");
         Matcher matcher = pattern.matcher(text);
         while (matcher.find()) {
